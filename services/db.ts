@@ -1,7 +1,7 @@
 
 import { User, TestResult } from '../types';
 
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = 'https://prep-apti.vercel.app/api';
 
 export const isDbConfigured = async (): Promise<boolean> => {
   try {
