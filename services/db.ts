@@ -2,7 +2,7 @@
 import { env } from 'process';
 import { User, TestResult } from '../types';
 
-const API_BASE_URL =process.env.VITE_API_BASE_URL;
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
 
 export const isDbConfigured = async (): Promise<boolean> => {
   try {
